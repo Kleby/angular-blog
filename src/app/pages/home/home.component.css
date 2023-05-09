@@ -12,7 +12,6 @@ header{
     
 }
 .container__homer .articles {
-    display: flex;
-    grid-template-columns: 45% 45%;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
 }
