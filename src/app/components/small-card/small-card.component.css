@@ -1,0 +1,30 @@
+.container__small-card{
+    display: flex;
+    justify-content: center;
+    padding: 32px 8px;
+    color: #fff;  
+    margin-left: 22px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5 );
+}
+
+.container__small-card  .small-card__picture img{
+    min-width: 200px;
+    height: 150px;
+    margin-right: 22px;
+}
+
+
+.container__small-card .small-card__title{
+    display: flex;
+    flex-direction: column;
+}
+.container__small-card .small-card__title span{
+    font-size: 11px;
+    color: rgba(255, 255, 255, .5 );
+}
+.container__small-card .small-card__title h4{
+    font-size: 20px;
+    color: rgb(255, 255, 255 );
+    margin-top: 10px;    
+}

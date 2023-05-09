@@ -1,0 +1,13 @@
+.container__menu-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(150, 146, 146, 0.452);
+    border-bottom: 1px solid rgba(150, 146, 146, 0.452);
+}
+
+.container__menu-title > h1{
+    color: #FFF;
+    font-size: 250px;
+    font-weight: 700;
+}

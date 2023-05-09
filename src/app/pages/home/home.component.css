@@ -1,0 +1,18 @@
+.container__homer{
+    margin: 0 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 15px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.container__homer .articles {
+    display: flex;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+}
