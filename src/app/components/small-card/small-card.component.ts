@@ -11,6 +11,9 @@ export class SmallCardComponent {
   photoCover: string = ""
   
   @Input()
+  releaseDate: string = ""
+
+  @Input()
   smallCardTitle : string = ""
 
   constructor(){

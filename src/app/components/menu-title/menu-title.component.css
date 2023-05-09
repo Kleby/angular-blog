@@ -1,3 +1,7 @@
+*{
+    background-color: #121212;
+}
+
 .container__menu-title{
     display: flex;
     justify-content: center;
@@ -7,7 +11,8 @@
 }
 
 .container__menu-title > h1{
+    max-width: 100%;
     color: #FFF;
-    font-size: 250px;
+    font-size: 7rem;
     font-weight: 700;
 }

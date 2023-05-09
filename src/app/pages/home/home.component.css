@@ -1,11 +1,16 @@
+*{
+    background-color: #121212;
+}
 .container__homer{
-    margin: 0 48px;
+    margin: 0 auto;
+    padding: 0 3.25rem;
     display: flex;
     flex-direction: column;
+    width: 94%;
 }
 
 header{
-    margin: 15px 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -14,4 +19,5 @@ header{
 .container__homer .articles {
     display: grid;
     grid-template-columns: 1.1fr .9fr;
+    margin-top: 20px;
 }

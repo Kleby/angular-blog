@@ -1,3 +1,7 @@
+*{
+    background-color: #121212;
+}
+
 .container__small-card{
     display: flex;
     justify-content: flex-start;
@@ -29,7 +33,7 @@
 }
 .container__small-card .small-card__title h4{
     font-size: 15px;
-    color: rgb(255, 255, 255 );
+    color: #fff;
     margin-top: 20px;    
 }
 

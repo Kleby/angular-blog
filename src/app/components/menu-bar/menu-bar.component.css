@@ -1,3 +1,6 @@
+*{
+    background-color: #121212;
+}
 .container__menu-bar > ul{
     display: flex;
 }
