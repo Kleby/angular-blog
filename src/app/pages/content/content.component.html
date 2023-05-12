@@ -1,1 +1,15 @@
-<p>content works!</p>
+<div class="container__content">
+    <div class="content__cover">
+        <img
+        src={{contentPhotoCover}}
+        alt={{contentTitle}}>
+    </div>
+    <a [routerLink]="['']" rel="noopener noreferrer"> << Voltar</a>
+    <div class="content__title">
+        <h1>{{contentTitle}}</h1>
+        <p>{{contentSubTitle}}</p>
+    </div>
+    <div class="content__description">
+        <p>{{contentDescription}}</p>
+    </div>
+</div>

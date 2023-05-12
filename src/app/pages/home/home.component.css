@@ -1,6 +1,4 @@
-*{
-    background-color: #121212;
-}
+
 .container__homer{
     margin: 0 auto;
     padding: 0 3.25rem;
@@ -9,13 +7,6 @@
     width: 94%;
 }
 
-header{
-    margin: 1rem 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
 .container__homer .articles {
     display: grid;
     grid-template-columns: 1.1fr .9fr;

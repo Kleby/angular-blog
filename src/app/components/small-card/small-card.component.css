@@ -1,16 +1,13 @@
-*{
-    background-color: #121212;
-}
 
 .container__small-card{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 32px 0;
+    padding: 2rem 0;
     color: #fff;  
     margin-left: 22px;
     margin-bottom: 25px;
-    border-bottom: 1px solid rgba(255, 255, 255, .5 );
+    border-bottom: 1px solid rgba(150, 146, 146, 0.452);
 }
 
 .container__small-card  .small-card__picture img{

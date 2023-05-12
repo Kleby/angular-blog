@@ -1,8 +1,11 @@
-*{
-    background-color: #121212;
+.container__menu-bar {
+    width: 100%;
 }
+
 .container__menu-bar > ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container__menu-bar > ul > li{
@@ -10,6 +13,13 @@
 }
 
 .container__menu-bar > ul > li > a{
+    border-bottom: 1px solid rgba(150, 146, 146, 0.452);
     color: #fff;
-    margin: 0 15px;    
+    margin: 0 1rem;    
+    padding: 4px;
+}
+
+.container__menu-bar > ul > li > a:hover{
+    color: rgba(250, 150, 250, .5);
+    transition: color 300ms;
 }

@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { dataFake } from 'src/app/data/data-fake';
 
 @Component({
   selector: 'app-small-card',
@@ -11,17 +13,15 @@ export class SmallCardComponent {
   photoCover: string = ""
   
   @Input()
-  releaseDate: string = ""
-
-  @Input()
   smallCardTitle : string = ""
 
-  constructor(){
+  @Input()
+  smallCardSubTitle: string = "";
 
-  }
-
-  ngOnInit(){
-
-  }
+  @Input()
+  id: string | null = ""
+  
+  @Input()
+  smallCardReleaseDate: string = ""
 
 }

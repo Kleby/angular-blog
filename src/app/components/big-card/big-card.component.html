@@ -1,5 +1,5 @@
 <div class="container__big-card">
-    <a href="#" target="_blank">
+    <a [routerLink]="['content',id]">
         <div class="big-card__date">
         </div>
         <div class="big-card__picture">
@@ -13,7 +13,7 @@
         </div>
     </a>
     <div class="big-card__title">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a [routerLink]="['content',id]">
             <h4>
                 {{bigCardTitle}}
             </h4>
